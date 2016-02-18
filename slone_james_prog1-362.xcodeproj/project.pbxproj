@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D83626651C45944B009DF9A8 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = D83626641C45944B009DF9A8 /* main.c */; };
+		D83626651C45944B009DF9A8 /* prog1.c in Sources */ = {isa = PBXBuildFile; fileRef = D83626641C45944B009DF9A8 /* prog1.c */; };
+		D8C366EF1C670C9600B159B8 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = D8C366EE1C670C9600B159B8 /* main.c */; };
+		D8C366F11C670CC100B159B8 /* InputOutput.c in Sources */ = {isa = PBXBuildFile; fileRef = D8C366F01C670CC100B159B8 /* InputOutput.c */; };
+		D8C366F41C671A4300B159B8 /* Computations.c in Sources */ = {isa = PBXBuildFile; fileRef = D8C366F31C671A4300B159B8 /* Computations.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +27,15 @@
 
 /* Begin PBXFileReference section */
 		D83626611C45944B009DF9A8 /* slone_james_prog1-362 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "slone_james_prog1-362"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D83626641C45944B009DF9A8 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		D83626641C45944B009DF9A8 /* prog1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = prog1.c; sourceTree = "<group>"; };
+		D836266B1C459A71009DF9A8 /* input1.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = input1.txt; sourceTree = "<group>"; };
+		D836266C1C45AE5F009DF9A8 /* input2.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = input2.txt; sourceTree = "<group>"; };
+		D836266D1C45B106009DF9A8 /* input3.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = input3.txt; sourceTree = "<group>"; };
+		D8C366EE1C670C9600B159B8 /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		D8C366F01C670CC100B159B8 /* InputOutput.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = InputOutput.c; sourceTree = "<group>"; };
+		D8C366F21C670DA500B159B8 /* prog2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = prog2.h; sourceTree = "<group>"; };
+		D8C366F31C671A4300B159B8 /* Computations.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Computations.c; sourceTree = "<group>"; };
+		D8C366F51C68234E00B159B8 /* cities1.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = cities1.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +53,7 @@
 			isa = PBXGroup;
 			children = (
 				D83626631C45944B009DF9A8 /* slone_james_prog1-362 */,
+				D8C366EB1C670B2B00B159B8 /* slone_james_prog2-362 */,
 				D83626621C45944B009DF9A8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -57,8 +69,24 @@
 		D83626631C45944B009DF9A8 /* slone_james_prog1-362 */ = {
 			isa = PBXGroup;
 			children = (
-				D83626641C45944B009DF9A8 /* main.c */,
+				D83626641C45944B009DF9A8 /* prog1.c */,
+				D836266C1C45AE5F009DF9A8 /* input2.txt */,
+				D836266D1C45B106009DF9A8 /* input3.txt */,
 			);
+			path = "slone_james_prog1-362";
+			sourceTree = "<group>";
+		};
+		D8C366EB1C670B2B00B159B8 /* slone_james_prog2-362 */ = {
+			isa = PBXGroup;
+			children = (
+				D8C366EE1C670C9600B159B8 /* main.c */,
+				D8C366F51C68234E00B159B8 /* cities1.txt */,
+				D836266B1C459A71009DF9A8 /* input1.txt */,
+				D8C366F01C670CC100B159B8 /* InputOutput.c */,
+				D8C366F31C671A4300B159B8 /* Computations.c */,
+				D8C366F21C670DA500B159B8 /* prog2.h */,
+			);
+			name = "slone_james_prog2-362";
 			path = "slone_james_prog1-362";
 			sourceTree = "<group>";
 		};
@@ -118,7 +146,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D83626651C45944B009DF9A8 /* main.c in Sources */,
+				D8C366EF1C670C9600B159B8 /* main.c in Sources */,
+				D8C366F41C671A4300B159B8 /* Computations.c in Sources */,
+				D83626651C45944B009DF9A8 /* prog1.c in Sources */,
+				D8C366F11C670CC100B159B8 /* InputOutput.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,6 +268,7 @@
 				D836266A1C45944B009DF9A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
